@@ -6,10 +6,10 @@ pool: myAgentPool
 
 variables:
   # Service connection name
-  azureServiceConnectionId: 'myserviceconn205234'
+  azureServiceConnectionId: 'myserviceconn205330'
   
   # Web App name
-  webAppName: 'flaskapp205234'
+  webAppName: 'flaskapp205330'
 
   # Environment name
   environmentName: 'flask-ml-service'
