@@ -46,5 +46,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://satsession.azurewebsites.net:$PORT/predict
-     #your application name <yourappname>goes here
+     -X POST https://flaskapp205330.azurewebsites.net:$PORT/predict
