@@ -72,7 +72,7 @@ chmod +x ./make_predict_azure_app.sh
 * Performance validation of the webapp via a load test, etc.
 
 ## Demo 
-![Demo Video](https://www.youtube.com/watch?v=6Nq8x0n2Rlw "Demo Video")
-
+![Demo Video]( "Demo Video")
+[![Demo Video](https://img.youtube.com/vi/6Nq8x0n2Rlw/0.jpg)](https://www.youtube.com/watch?v=6Nq8x0n2Rlw)
 
 
