@@ -28,10 +28,12 @@ We need to create a self/hosted agent a new linux VM that will build and deploy 
 
 * Create a repository in Github and copy the starter code
 * Enable Azure Pipeline in the project
+* Launch an Azure Cloud Shell environment and create ssh-keys. Upload these keys to your Github account
 * Login to Azure Cloud shell and clone the repository
 ![Cloned repo in Cloud Shell](./pictures/cloned_repo.png "Cloned repo in Cloud Shell")
-
-
+* Enable Github Actions and copy the yml code with scaffolding
+* Verify remote test pass in Github Actions
+![Github Actions](./pictures/github_action.png "Github Actions")
 
 * Project running on Azure App Service
 
