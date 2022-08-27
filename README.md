@@ -16,7 +16,22 @@ Trello board and spreadsheet for project planning and execution.
 * Architectural Diagram
 ![Architectural Diagram](./pictures/Architectural_diagram.png "Architectural Diagram")
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+### Instructions for running the Python project
+
+We need to create a self/hosted agent a new linux VM that will build and deploy the code
+
+* Login to Azure Portal and Azure Devops. Set up the Azure DevOps account and create organization and project using the following links
+    * https://portal.azure.com/
+    * https://dev.azure.com/ 
+
+* Set up a new service connection via Azure Resource Manager and Service principal (manual).
+
+* Create a repository in Github and copy the starter code
+* Enable Azure Pipeline in the project
+* Login to Azure Cloud shell and clone the repository
+![Cloned repo in Cloud Shell](./pictures/cloned_repo.png "Cloned repo in Cloud Shell")
+
+
 
 * Project running on Azure App Service
 
