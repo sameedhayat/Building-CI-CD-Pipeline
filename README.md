@@ -41,7 +41,22 @@ We need to create a self/hosted agent a new linux VM that will build and deploy 
 # Provide the web app name as a globally unique value. 
 az webapp up --name <Your_unique_app_name> --resource-group Azuredevops --runtime "PYTHON:3.7"
 ```
-    
+![Deploy App using Azure app service](./pictures/azure_app_service.png "Deploy App using Azure app service")
+* Verify that the app is run by going to the link
+```bash
+https://<Your_unique_app_name>.azurewebsites.net/
+```
+![Website verification](./pictures/website.png "Website verification")
+* Update make_predict_azure_app.sh file with the web link and generate predictions by running the following commands
+```bash
+chmod +x ./make_predict_azure_app.sh
+./make_predict_azure_app.sh
+```
+![Generating Predictions](./pictures/predictions.png "Generating Predictions")
+
+
+
+
 
 * Project running on Azure App Service
 
