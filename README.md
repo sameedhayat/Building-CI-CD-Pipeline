@@ -34,6 +34,12 @@ We need to create a self/hosted agent a new linux VM that will build and deploy 
 * Enable Github Actions and copy the yml code with scaffolding
 * Verify remote test pass in Github Actions
 ![Github Actions](./pictures/github_action.png "Github Actions")
+* Test the repository locally by creating a virtual environment and running make all in Azure Cloud Shell
+![Local testing in Azure Cloud Shell](./pictures/local_testing.png "Local testing in Azure Cloud Shell")
+* Deploy the app using Azure app service by using the following command in Azure Cloud Shell
+    
+    # Provide the web app name as a globally unique value. 
+    az webapp up --name <Your_unique_app_name> --resource-group Azuredevops --runtime "PYTHON:3.7"
 
 * Project running on Azure App Service
 
