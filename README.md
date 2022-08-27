@@ -76,4 +76,5 @@ chmod +x ./make_predict_azure_app.sh
 [![Demo Video](https://img.youtube.com/vi/6Nq8x0n2Rlw/0.jpg)](https://www.youtube.com/watch?v=6Nq8x0n2Rlw)
 
 
+## Github Actions Badge
 [![Python application test with Github Actions](https://github.com/sameedhayat/Building-CI-CD-Pipeline/actions/workflows/main.yml/badge.svg)](https://github.com/sameedhayat/Building-CI-CD-Pipeline/actions/workflows/main.yml)
