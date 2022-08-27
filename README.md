@@ -1,12 +1,14 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+In this project, we build a Github repository and use the scaffolding that with help us with deploying Flask ML API and perform Continuous Integration and Continuous Delivery. 
+* We perform continuous integration using Github Actions that performs linting, testing and dependencies installation. 
+* We integrate our project with Azure Pipeline to allow Continuous delivery to Azure App Service.
 
 ## Project Plan
-<TODO: Project Plan
+Trello board and spreadsheet for project planning and execution.
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* A link to a Trello board for the project [link](https://trello.com/invite/b/0O5wVZPH/9804074e7757daa5e631d85b9bd6aa57/building-ci-cd-pipeline)
+* Spreadsheet that includes the original and final project plan [link](https://docs.google.com/spreadsheets/d/1G2UlwSD3HVO32IbAr77t-I1oMyIP3ido7AKpit3aojg/edit#gid=0)
 
 ## Instructions
 
