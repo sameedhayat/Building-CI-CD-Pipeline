@@ -53,7 +53,18 @@ chmod +x ./make_predict_azure_app.sh
 ./make_predict_azure_app.sh
 ```
 ![Generating Predictions](./pictures/predictions.png "Generating Predictions")
+* Create a self host agent pool in Azure devops
 
+* Create a Linux VM and configure the Linux VM in Azure Cloud Shell as an Azure DevOps Build Agent
+
+* Add a new agent to agent pool
+
+* Create a pipeline in the Azure project and update the azure-pipelines.yml
+
+* Run the pipeline
+![Pipeline Execution](./pictures/pipeline.png "Pipeline Execution")
+* Check the pipeline logs to see if the execution was successful
+![Pipeline Logs](./pictures/pipeline_logs.png "Pipeline logs")
 
 
 
